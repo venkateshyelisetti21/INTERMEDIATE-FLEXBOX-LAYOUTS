@@ -1,0 +1,33 @@
+.boxes-container
+{
+    display: flex;
+    flex-direction: row;    /* ------>used in main axis */
+    justify-content: center;
+    align-items: flex-start;   /* ------> used in cross axis */
+    border: 10px solid goldenrod;
+    height: 100vh;
+}
+.box
+{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    font-family: "roboto";
+}
+.box1
+{
+    background-color: #1abc9c;
+}
+.box2
+{
+    background-color: #3498db;
+}
+.box3
+{
+    background-color: #9b59b6;
+}
+.box4
+{
+    background-color: #34495e;
+}
