@@ -1,0 +1,39 @@
+.bg-container
+{
+    height: 100vh;
+    width: 100%;
+}
+
+/* and operator */
+@media (orientation: landscape) and (min-width: 600px)
+{
+    .bg-container
+    {
+        background-color: deepskyblue;
+    }
+}
+
+/* Combining Media type and media features  */
+@media screen and (min-width: 600px) {
+    .bg-container
+    {
+        background-color: green;
+    }
+}
+
+/* implementing not operator */
+@media not screen and (min-width: 600px) {
+    .bg-container
+    {
+        background-color: orange;
+    }
+}
+
+/* ,(comma) operator */
+@media (orientation: landscape), (min-width: 600px)
+{
+    .bg-container
+    {
+        background-color: yellowgreen;
+    }
+}

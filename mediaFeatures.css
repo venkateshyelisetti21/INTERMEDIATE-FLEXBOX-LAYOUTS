@@ -1,0 +1,33 @@
+.heading
+{
+    color: blue;
+}
+/* Media print queries */
+@media print {
+    .heading {
+    color: green;
+}
+}
+
+
+.bg-container
+{
+    height: 100vh;
+    width: 100%;
+}
+/* Media width queries */
+@media (width: 800px){
+    .bg-container{
+        background-color: deepskyblue;
+    }
+}
+@media (max-width: 799px){
+    .bg-container{
+        background-color: orange;
+    }
+}
+@media (min-width: 801px){
+    .bg-container{
+        background-color: yellowgreen;
+    }
+}

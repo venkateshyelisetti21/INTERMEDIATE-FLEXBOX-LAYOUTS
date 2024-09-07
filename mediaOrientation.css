@@ -1,0 +1,19 @@
+.bg-container
+{
+    height: 100vh;
+    width: 100%;
+}
+@media (orientation : landscape)
+{
+    .bg-container
+{
+    background-color: orange;
+}
+}
+@media (orientation : portrait)
+{
+    .bg-container
+{
+    background-color: greenyellow;
+}
+}
