@@ -1,0 +1,14 @@
+.bg-container
+{
+    height: 100vh;
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/nature-gallery-mobile-bg.jpg");
+    background-size: cover;
+}
+
+@media screen and (min-width: 600px)
+{
+    .bg-container
+    {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/nature-gallery-bg.png");
+    }
+}

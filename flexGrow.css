@@ -1,0 +1,41 @@
+.boxes-container
+{
+    display: flex;
+    flex-direction: row;    /* ------>used in main axis */
+    /* justify-content: center; */
+    /* align-items: flex-start;   ------> used in cross axis */
+    border: 10px solid goldenrod;
+    height: 100vh;
+}
+.box
+{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    font-family: "roboto";
+}
+.box1
+{
+    background-color: #1abc9c;
+    flex-grow: 2;
+    width: 100px;
+}
+.box2
+{
+    background-color: #3498db;
+    width: 100px;
+    flex-grow: 1;
+}
+.box3
+{
+    background-color: #9b59b6;
+    width: 100px;
+    flex-grow: 1;
+}
+.box4
+{
+    background-color: #34495e;
+    width: 100px;
+    flex-grow: 0;
+}
